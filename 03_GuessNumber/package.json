@@ -1,0 +1,25 @@
+{
+  "name": "guestNumber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.47.0"
+  },
+  "scripts": {
+    "cmd": "gulp",
+    "build": "yarn cmd default",
+    "watch": "yarn cmd watch",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/gulp": "^4.0.9",
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.7"
+  },
+  "repository": "https://github.com/AlexKit13/03_Guess_Number.git",
+  "author": "Alexander <alexanderpolyanitsa94@gmail.com>"
+}

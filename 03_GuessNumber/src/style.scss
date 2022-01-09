@@ -1,0 +1,89 @@
+$var1: #928e8e;
+* {
+  box-sizing: border-box;
+}
+body {
+  background: wheat;
+  display: flex;
+  align-items: center;
+  height: 97vh;
+}
+.guess-number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+.container {
+  position: absolute;
+  width: 699px;
+  height: 600px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 10%;
+  background: rgba(63, 63, 63, 0.24);
+  text-align: center;
+  font-size: 30px;
+
+  &__change {
+    font-size: 20px;
+    padding: 10px;
+    text-shadow: 1px -1px 2px blue;
+  }
+  .container p {
+    font-size: 30px;
+  }
+  &__reset--btn {
+    background: rgb(105, 39, 39);
+    color: aliceblue;
+    position: absolute;
+    top: 528px;
+    left: 279px;
+  }
+  &__reset--btn:hover{
+    box-shadow: 0 1px 4px 3px grey;
+    cursor: pointer;
+  }
+
+}
+
+.main__guess--box {
+  padding: 13px 52px;
+  border-radius: 17px;
+}
+.check-btn {
+  background: rgba(73, 73, 73, 0.959);
+  color: aliceblue;
+  position: absolute;
+  top: 403px;
+  left: 279px;
+}
+.check-btn:hover{
+  box-shadow: 0 1px 4px 3px grey;
+  cursor: pointer;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+label {
+  padding: 20px;
+}
+button {
+  width: 135px;
+  height: 44px;
+  background: white;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  padding: 5px 7px;
+  margin: 5px;
+}
+
+input[type="number"]:focus {
+  outline: thick double $var1;
+}

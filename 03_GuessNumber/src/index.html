@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Guest Number</title>
+</head>
+<body>
+<main class="guess-number">
+<div class="container">
+        <a href="index2.html"> <img src="../img/icon.png" alt="setting" width="40px" height="40px"> </a>
+        <p>Guest Number <br>
+            Привет, я загадал
+            число от 1 до 100 вашего диапазона. Попробуй угадать его за 5 попыток!
+        </p>
+    <label><input class="main__guess--box" type="number"></label>
+    <div class="container__valueGenerate">
+        <div class="main__all--guesses"><p>Your Guess:</p></div>
+        <div class="main__high--or--low"></div>
+        <button type="button" id="check" class="check-btn" onclick="checkGuess()">Check</button>
+        <button class="container__reset--btn" type="button" onclick="window.location.reload()">Reload</button>
+    </div>
+</div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
