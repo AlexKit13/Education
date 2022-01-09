@@ -1,0 +1,72 @@
+.container{
+    margin: 28px auto;
+    width: 306px;
+    height: 319px;
+    border-radius: 31px;
+    background: #919191;
+    padding: 65px;
+}
+
+.title{
+    text-align: center;
+}
+
+.field_input{
+    top: 216px;
+    right: 884px;
+    height: 36px;
+    width: 302px;
+    margin: -1px
+}
+.change{
+    position: absolute;
+    top: 265px;
+    right: 730px;
+    height: 55px;
+    width: 89px;
+    margin: 8px;
+}
+.exit{
+    position: absolute;
+    left: 727px;
+    top: 265px;
+    height: 55px;
+    width: 89px;
+    margin: 8px;
+    background-color: brown;
+
+}
+.start{
+    position: absolute;
+    top: 265px;
+    right: 888px;
+    height: 55px;
+    width: 89px;
+    margin: 8px;
+}
+
+
+
+.help{
+    position: absolute;
+    top: 377px;
+    left: 732px;
+    margin: 8px;
+    font-weight: bold;
+}
+
+.count{
+    position: absolute;
+    top: 412px;
+    left: 890px;
+    margin: 8px;
+    font-weight: bold;
+}
+
+p{
+    position: absolute;
+    top: 412px;
+    left: 735px;
+    margin: 8px;
+    font-weight: bold;
+}
