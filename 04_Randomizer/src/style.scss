@@ -1,0 +1,49 @@
+$var1: #928e8e;
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 30px;
+  margin: -10px auto;
+  text-align: center;
+}
+.container {
+  position: absolute;
+  width: 699px;
+  height: 600px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 10%;
+  background: rgba(63, 63, 63, 0.24);
+  text-align: center;
+}
+#commit {
+  background: rgba(78, 19, 19, 0.959);
+  color: aliceblue;
+  width: 125px;
+  height: 46px;
+  &:hover {
+    box-shadow: 0 1px 4px 3px grey;
+    cursor: pointer;
+  }
+}
+#reset:hover {
+  box-shadow: 0 1px 4px 3px grey;
+  cursor: pointer;
+}
+#reset {
+  background: rgba(29, 73, 49, 0.96);
+  color: aliceblue;
+  width: 125px;
+  height: 46px;
+}
+input[type="text"]:focus {
+  outline: thick double $var1;
+}
+
+
